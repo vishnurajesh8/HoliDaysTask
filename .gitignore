@@ -1,0 +1,35 @@
+# Git ignore file for Django + React project with virtual environment
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment
+venv/
+
+# Django specific
+/static/
+/media/
+
+
+# React specific
+node_modules/
+build/
+.DS_Store
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+*.log
+
+# IDE specific
+.vscode/
+.idea/
+
+# OS generated files
+Thumbs.db
+.DS_Store
